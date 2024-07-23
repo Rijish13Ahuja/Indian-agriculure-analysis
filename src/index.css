@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .MantineTable {
+    margin: 20px 0;
+  }
+  
+  .MantineTable th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .MantineTable td {
+    background-color: #fff;
+    color: #333;
+    padding: 12px;
+  }
+  
+  .MantineTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .MantineTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .MantineTableWrapper {
+    margin-bottom: 40px;
+  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+  

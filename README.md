@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# Indian Agriculture Analysis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project performs analytics on the Indian Agriculture dataset provided by the National Data and Analytics Platform, NITI Aayog. It displays the results in tables using Mantine v7. The project includes two main analyses:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Crop Production Analysis:** Displays the crop with the maximum and minimum production for each year.
+2. **Crop Yield and Cultivation Area Analysis:** Shows the average yield and cultivation area of each crop between 1950 and 2020.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (version 16 or later)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install) (or use npm)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Installation
+
+ Clone the repository:
+   ```sh
+   git clone https://github.com/Rijish13Ahuja/Indian-agriculure-analysis.git
+   ```
+
+###Navigating to the Project Directory
+
+#Change to the project directory:
+ ```sh
+cd Indian-agriculure-analysis
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+ Install dependencies:
+
+    ```sh
+    npm install
+    ```
+
+### Running the Development Server
+
+To start the development server, run:
+
+```sh
+npm run dev
+```
+
+### PROJECT STRUCTURE
+```sh
+src/
+├── components/
+│   ├── CropMaxMinTable.tsx: Displays the crop production analysis table.
+│   ├── CropAverageTable.tsx: Displays the crop yield and cultivation area analysis table.
+├── data/
+│   └── Manufac_India_Agro_Dataset.json: JSON file containing the dataset.
+├── types/
+│   └── index.ts: TypeScript types for the project.
+├── index.css: CSS file for styling.
+```

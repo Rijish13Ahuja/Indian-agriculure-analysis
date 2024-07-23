@@ -22,13 +22,13 @@ Ensure you have the following installed:
    git clone https://github.com/Rijish13Ahuja/Indian-agriculure-analysis.git
    ```
 
-### Navigating to the Project Directory
+## Navigating to the Project Directory
 
-# Change to the project directory:
+### Change to the project directory:
 
  ```sh
-cd Indian-agriculure-analysis
-```
+  cd Indian-agriculure-analysis
+ ```
 
  Install dependencies:
 

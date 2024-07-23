@@ -27,14 +27,14 @@ Ensure you have the following installed:
 ### Change to the project directory:
 
  ```sh
-  cd Indian-agriculure-analysis
+  cd Indian-agriculture-analysis
  ```
 
- Install dependencies:
+## Install dependencies:
 
-    ```sh
+   ```sh
     npm install
-    ```
+   ```
 
 ### Running the Development Server
 
